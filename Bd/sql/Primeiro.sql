@@ -16,9 +16,3 @@ INSERT INTO tbl_produtos (codigo, prouto, data_compra) VALUES
 (1,'Açucar', GETDATE()),
 (2,'Arroz',GETDATE()),
 (3,'Abacate', GETDATE()),
-(4,'Feijão', GETDATE()),
-(5,'Cebola', GETDATE()),
-(6,'Banana', GETDATE()),
-(7,'Uva', GETDATE()),
-(8,'Matheus', GETDATE()),
-(9,'Cenoura', GETDATE())
