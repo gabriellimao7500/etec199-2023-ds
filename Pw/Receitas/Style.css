@@ -1,11 +1,13 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
-body.index{
+
+body.index {
     display: grid;
     grid-column: 1fr 1fr 1fr;
 }
+
 .textinicial {
     font-size: 50px;
     font-family: cursive;
@@ -13,44 +15,40 @@ body.index{
     margin-top: 25px;
     text-shadow: 0.1em 0.1em 0.2em #695f5f;
 }
-.im{
+
+.im {
     float: right;
-}   
-body.backgroundindex {
-    background: url(fundo.png);
-    background-size :cover;
-    
 }
 
-.principal{
+body {
+    background: url(fundo.png);
+    background-repeat: repeat;
 
-     margin-top: 30px;
-     margin-bottom: 30px;
-     margin-left: 30%;
-     margin-right: 30%;
-     background-color:#FDEED4;
-     box-shadow: 3px 3px 5px 6px #000000;
+}
+
+.principal {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #FDEED4;
+    box-shadow: 3px 3px 5px 6px #000000;
     border-radius: 25px;
-    
-
 }
 
 .receitas {
-
     margin-left: 10%;
     margin-right: 10%;
     position: absolute;
     background-color: #FDEED4;
     box-shadow: 5px 9px 5px 6px #000000;
-    border-radius: 25px; 
+    border-radius: 25px;
     width: 80%;
     margin-bottom: 50px;
 }
 
 h2, h3, h4 {
-
     margin-left: 15px;
-
 }
 
 h2 {
@@ -58,76 +56,71 @@ h2 {
     font-size: 35px;
     font-family: cursive;
     color: #e14f38;
-    text-shadow: 0.1em 0.1em 0.2em rgb(148, 122, 122)
+    text-shadow: 0.1em 0.1em 0.2em rgb(148, 122, 122);
 }
 
 h3 {
-
     font-size: 25px;
     font-family: cursive;
     color: black;
     text-shadow: 0.1em 0.1em 0.2em #695f5f;
-
 }
 
-h4{
-
+h4 {
     font-size: 20px;
     font-family: cursive;
     color: black;
     text-shadow: 0.1em 0.1em 0.2em #695f5f;
-
 }
 
 .escolha {
-    grid-column: 2/3;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-left: 10%;
     margin-right: 10%;
     background-color: #FDEED4;
     box-shadow: 5px 9px 5px 6px #000000;
-    border-radius: 25px; 
+    border-radius: 25px;
     text-align: center;
     font-family: cursive;
     font-size: 50px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem 3rem;
     padding: 3rem 3rem;
-
 }
 
-
-    a:link {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-size: large;
-        }
-    a:visited {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-size: larger;
-        }
+a:link,
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
 
 .p{
-    border: #e14f38  solid 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: #e14f38 solid 6px;
     width: 200px;
     height: 100px;
     background-color: #e14f38;
     border-radius: 50px;
+    margin-left: 60px;
+    margin-right: 55px;
 }
 
 .botao {
-        position: absolute;
-        text-align: center;
-        color: white;
-        font-family: cursive;
-        border-radius: 25px;
-        background-color: #e14f38;
-        box-shadow: 5px 9px 5px 6px #000000;
-        left: 35%;
-        right: 35%;
-        width: 30%;
-        bottom: 35px;
-        
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    border-radius: 25px;
+    background-color: #e14f38;
+    box-shadow: 5px 9px 5px 6px #000000;
+    left: 35%;
+    right: 35%;
+    width: 30%;
+    bottom: 35px;
 }
-
