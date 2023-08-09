@@ -5,7 +5,12 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    background-color: #121212;
 }
+
+body, html{
+    height: 100%;
+  }
 
 .icon {
     padding-left: 15px;
@@ -40,6 +45,7 @@ button {
     font-size: large;
     visibility: hidden;
 }
+
 
 .inicio {
     padding-top: 15px;
@@ -103,11 +109,13 @@ a:visited {
     width: 80%;
     float: right;
     color: whitesmoke;
+
 }
 
 .body.menu {
     margin: 0;
     background-color: #121212;
+
 }
 
 .letra {
@@ -141,6 +149,7 @@ a:visited {
 .playl {
     margin-left: 20vw;
     margin-right: 20vw;
+    
     min-width: 300px;
     background-color: #121212;
     border: solid 3px #121212;
@@ -186,7 +195,12 @@ a:visited {
     }
 }
 
-@media (max-width: 914px) {
+@media (max-width: 930px) {
+    .inicio {
+        height: 290%;
+    }
+}
+@media (max-width: 930px) {
     .inicio {
         height: 290%;
     }
