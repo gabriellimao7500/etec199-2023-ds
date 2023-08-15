@@ -51,7 +51,7 @@ button {
     padding-top: 15px;
     background-color: #000000;
     width: 20%;
-    height: 150%;
+    height: 250%;
     font-weight: bold;
     font-family: Helvetica;
     text-decoration: none;
@@ -70,6 +70,9 @@ a:link,
 a:visited {
     text-decoration: none;
     color: rgb(58, 58, 58);
+}a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.5;
 }
 
 .main {
@@ -87,13 +90,19 @@ a:visited {
     color: rgb(100, 100, 100);
 }
 
+
 .thumbnail {
     max-width: 100%;
     min-width: 50%;
 }
+.thumbnail:hover{
+    transform: scale(1.1);
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
 
 .menu {
-    height: 1000px;
+    height: 100%;
     text-align: center;
     font-size: 20px;
 }
