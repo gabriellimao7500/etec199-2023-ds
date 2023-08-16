@@ -83,8 +83,17 @@ a:visited {
     text-decoration: none;
     color: rgb(58, 58, 58);
 }a:hover{
+    animation: colora 0.5s linear;
     color: rgb(255, 255, 255);
-    transition: 0.5;
+}
+
+@keyframes colora {
+    0%{
+        color: rgb(58, 58, 58);
+    }
+    100%{
+        color: rgb(255, 255, 255);
+    }
 }
 
 .main {

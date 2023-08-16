@@ -3,11 +3,7 @@ body {
     margin: 0;
 }
 
-body.index {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .textinicial {
     font-size: 50px;
@@ -19,12 +15,12 @@ body.index {
 
 .im {
     float: right;
+    
 }
 
 body {
     background: url(fundo.png);
     background-repeat: repeat;
-
 }
 
 .principal {
@@ -38,13 +34,10 @@ body {
 
 .receitas {
     
-    margin-right: 15vw;
-    justify-content: center;
-    position: absolute;
     background-color: #FDEED4;
     box-shadow: 5px 9px 5px 6px #000000;
     border-radius: 25px;
-    width: 80%;
+    width: 70vw;
     margin-bottom: 50px;
 }
 
@@ -72,6 +65,12 @@ h4 {
     font-family: cursive;
     color: black;
     text-shadow: 0.1em 0.1em 0.2em #695f5f;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .escolha {
@@ -111,6 +110,18 @@ a:visited {
     margin-left: 60px;
     margin-right: 55px;
 }
+.p:hover{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(365deg);
+    }
+    100%{
+        
+    }
+}
 
 
 @media (max-width: 432px) {
@@ -129,19 +140,10 @@ a:visited {
     
   }
 
-  @media (max-width: 400) {
-
-    .receitas {
-
-        margin-right: 20px;
-
-    }
 
 
-  }
-
+  
 .botao {
-    position: absolute;
     text-align: center;
     color: white;
     font-family: cursive;
@@ -151,5 +153,6 @@ a:visited {
     left: 35%;
     right: 35%;
     width: 30%;
-    bottom: 35px;
+    margin-left: 35%;
+    margin-bottom: 25px;
 }
