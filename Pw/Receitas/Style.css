@@ -4,8 +4,9 @@ body {
 }
 
 body.index {
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .textinicial {
@@ -27,18 +28,18 @@ body {
 }
 
 .principal {
-    margin-top: 30px;
-    margin-bottom: 30px;
     margin-left: 30%;
     margin-right: 30%;
     background-color: #FDEED4;
     box-shadow: 3px 3px 5px 6px #000000;
     border-radius: 25px;
+    min-width: 126px;
 }
 
 .receitas {
-    margin-left: 10%;
-    margin-right: 10%;
+    
+    margin-right: 15vw;
+    justify-content: center;
     position: absolute;
     background-color: #FDEED4;
     box-shadow: 5px 9px 5px 6px #000000;
@@ -110,6 +111,34 @@ a:visited {
     margin-left: 60px;
     margin-right: 55px;
 }
+
+
+@media (max-width: 432px) {
+    .textinicial {
+      font-size: 40px;
+    
+    }
+    .escolha{
+        margin-left: 12px
+    }
+  }
+@media (max-width: 350px) {
+    .textinicial {
+      font-size: 30px;
+    }
+    
+  }
+
+  @media (max-width: 400) {
+
+    .receitas {
+
+        margin-right: 20px;
+
+    }
+
+
+  }
 
 .botao {
     position: absolute;
