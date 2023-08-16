@@ -12,10 +12,22 @@ body, html{
     height: 100%;
   }
 
-.icon {
-    padding-left: 15px;
-    padding-top: 0;
-    float: left;
+
+.spinner{
+    width: 80px;
+    height: 80px;
+    margin-top: 20%;
+    border: 20px solid rgba(255, 255, 255, 0.1);
+    border-top-color: blue;
+    border-radius: 50%;
+    animation: spin 10s linear infinite ;
+    box-shadow: 0px 0px 25px blue;
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(365deg);
+    }
 }
 
 button {
@@ -190,6 +202,10 @@ a:visited {
     .tb {
         width: 250px;
         height: 150px;
+    }
+    .spinner{
+        width: 20px;
+        height: 20px;
     }
 }
 
