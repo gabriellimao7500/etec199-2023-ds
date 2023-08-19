@@ -1,6 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
-}
+} 
+
 
 body {
     margin: 0;
@@ -17,11 +18,12 @@ body, html{
     width: 80px;
     height: 80px;
     margin-top: 20%;
-    border: 20px solid rgba(255, 255, 255, 0.1);
+    border: 20px solid #121212;
     border-top-color: blue;
     border-radius: 50%;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.452),#000000);
     animation: spin 10s linear infinite ;
-    box-shadow: 0px 0px 25px blue;
+    box-shadow: 0px 0px 30px rgba(0, 0, 255, 0.452);
 }
 
 @keyframes spin {
@@ -63,6 +65,7 @@ button {
     padding-top: 15px;
     background-color: #000000;
     width: 20%;
+    position: fixed;
     height: 250%;
     font-weight: bold;
     font-family: Helvetica;

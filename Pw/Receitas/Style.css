@@ -111,15 +111,28 @@ a:visited {
     margin-right: 55px;
 }
 .p:hover{
-    animation: spin 1s linear infinite;
+    animation: spin 0.5s linear;
+    transform: scale(1.15);
 }
 
 @keyframes spin {
     0%{
-        transform: rotate(365deg);
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    55%{
+        transform: scale(1.2);
+    }
+    65%{
+        transform: scale(1.1);
     }
     100%{
-        
+        transform: scale(1.15);
     }
 }
 
