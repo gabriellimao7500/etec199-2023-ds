@@ -152,10 +152,59 @@ a:visited {
     }
     
   }
+@media (max-width: 650px) {
+    .im {
+       width: 300px;
+       height: 300px;
+    }
+}
+@media (max-width: 850px) {
+    .im {
+       width: 500px;
+       height: 500px;
+    }
+}
 
-
+@media (max-width: 700px) {
+    .im {
+       width: 400px;
+       height: 400px;
+    }
+}
+  
+@media (max-width: 560px) {
+    .im {
+       width: 350px;
+       height: 350px;
+    }
+}
 
   
+@media (max-width: 480px) {
+    .im {
+       width: 300px;
+       height: 300px;
+    }
+}
+
+ 
+@media (max-width: 420px) {
+    .im {
+       width: 250px;
+       height: 250px;
+    }
+}
+
+ 
+@media (max-width: 350px) {
+    .im {
+       width: 0px;
+       height: 0px;
+      
+    }
+   
+}
+
 .botao {
     text-align: center;
     color: white;
@@ -169,3 +218,4 @@ a:visited {
     margin-left: 35%;
     margin-bottom: 25px;
 }
+
