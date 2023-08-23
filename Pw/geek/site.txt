@@ -1,0 +1,20 @@
+Loja Geek
+
+	roupa
+		camisa
+		blusa
+		calsa 
+		meia
+		tenis
+
+	manga 
+		10 manga (3 vol.)
+		marcapagina
+
+	acessórios 
+		brinco corrente etc.
+	
+	videogame
+		ps
+		xbox
+		jogos 
